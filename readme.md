@@ -12,4 +12,3 @@
 - Git:
 - Instituição de Ensino
 ```
-
