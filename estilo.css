@@ -10,6 +10,14 @@ h1 {
     text-align: center;
 }
 
+#cabecalho {
+    background-image: url("../imagem/img-01-banner-1280×640.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+
 /*Seletores de classes*/
 .link {
     /*font-size: 24px;
@@ -28,10 +36,9 @@ h1 {
     &:hover {
         background-color: rgba(255, 0, 0, 0.500);;
     }
-
+}
     /* Nesting elements */
     .link a {
-        text-decoration: none;
         text-decoration: none;
         color: black;
         width: 5px;
@@ -42,7 +49,6 @@ h1 {
             width: 25%;
         }
     }
-}
 
 /*Seletores de ID*/
 #menu ul{
