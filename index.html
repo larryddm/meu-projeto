@@ -1,75 +1,74 @@
-<!DOCTYPE html>
+<!-- Este é um comentário em HTML. -->
+<!DOCTYPE html><!-- Este é o DTD do HTML5. -->
+<!--
+Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação.
+-->
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- primeiro filho do html. -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Página Básica</title>
+        <title>Página Básica</title>
 
-    <link rel="stylesheet" href="./estilo.css">
-</head>
+        <link rel="stylesheet" href="./css/estilo.css">
+    </head>
 
-<body>
+    <body>
 
-    <!-- <h1>Exemplos de TAGS</h1>
-    <h2>Analisando tags de bloco e limha</h2>
-    <spam style="border: solid 2px #FF0000;">Eu sou uma tag de linha...</spam>
-    <div style="border: 2px #0000;">Eu sou uma tag de bloco...</div> -->
+        <!-- <h1>Exemplos de TAGS</h1>
+        <h2>Analisando tags de bloco e limha</h2>
+        <spam style="border: solid 2px #FF0000;">Eu sou uma tag de linha...</spam>
+        <div style="border: 2px #0000;">Eu sou uma tag de bloco...</div> -->
 
-    <div id="container"></div>
+        <div id="container"></div>
 
-        <header id="cabecalho">
-            <h1>Minha Página</h1>
+            <header id="cabecalho">
+                <h1>Minha Página</h1>
 
-            <!-- <nav>
-                <ul>
-                    <li a href="" target="-blank">FIAP</li>
-                    <li a href="" target="-blank">GOOGLE</li>
-                    <li a href="" target="-self">GITHUB</li>
-                </ul>
-            </nav> -->
+                <nav id="menu">
+                    <ul>
+                        <li class="link"><a href="./paginas/help.html"><img src="./imagem/help.png" alt="Mão pedido ajuda"></a></li>
+                        <li class="link"><a href="./paginas/about.html"><img src="./imagem/about.png" alt="letra i"></a></li>
+                        <li class="link"><a href="./paginas/contact.html"><img src="./imagem/contact.png" alt="Telefone"></a></li>            
+                    </ul>
+                </nav>
 
-            <nav id="menu">
-                <ul>
-                    <li class="link"><a href="./paginas/help.html"><img src="./imagem/help.png" alt="Mão pedido ajuda"></a></li>
-                    <li class="link"><a href="./paginas/about.html"><img src="./imagem/about.png" alt="letra i"></a></li>
-                    <li class="link"><a href="./paginas/contact.html"><img src="./imagem/contact.png" alt="Telefone"></a></li>            
-                </ul>
-            </nav>
+            </header>
 
-        </header>
+            <section id="conteudo">
+                <div>
+                    <h2>Sobre mim...</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto eos perferendis ab veritatis doloremque fuga! Minus repudiandae sunt molestias ipsum vel iusto dolorem dolore deserunt tempore, hic aut nobis autem repellat quae! Optio nihil perspiciatis, ab cumque saepe similique mollitia numquam perferendis aperiam ratione quo dolore, asperiores ea alias delectus, et sequi porro quasi libero est totam! Cum illo harum iste, repellendus nemo unde aut sapiente tenetur ipsam dignissimos magnam molestias, provident reprehenderit eligendi omnis rem nihil quis doloremque eius non laudantium autem facere aspernatur! Voluptate reiciendis consequuntur vero laborum ipsum cupiditate deserunt sapiente tenetur quas natus? A, iusto!</p>
+                </div>
 
-        <section id="conteudo">
-            <div>
-                <h2>Sobre mim...</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto eos perferendis ab veritatis doloremque fuga! Minus repudiandae sunt molestias ipsum vel iusto dolorem dolore deserunt tempore, hic aut nobis autem repellat quae! Optio nihil perspiciatis, ab cumque saepe similique mollitia numquam perferendis aperiam ratione quo dolore, asperiores ea alias delectus, et sequi porro quasi libero est totam! Cum illo harum iste, repellendus nemo unde aut sapiente tenetur ipsam dignissimos magnam molestias, provident reprehenderit eligendi omnis rem nihil quis doloremque eius non laudantium autem facere aspernatur! Voluptate reiciendis consequuntur vero laborum ipsum cupiditate deserunt sapiente tenetur quas natus? A, iusto!</p>
-            </div>
+                <div>
+                    <h2>Skills</h2>
+                    <p>CSS, HTML, Java, Python, JavaScript</p>
+                </div>
 
-            <div>
-                <h2>Skills</h2>
-                <p>CSS, HTML, Java, Python, JavaScript</p>
-            </div>
+                <div>
+                    <h2>Portfólio</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci ullam assumenda aspernatur nesciunt nostrum impedit consectetur, aut amet deleniti quos exercitationem dolores similique! Accusamus totam ducimus corporis, sunt eos impedit! <spam>Algum projeto aqui. <a href="#">Projeto-1</a></spam>
+                    </p>
+                </div>
+            </section>
 
-            <div>
-                <h2>Portfólio</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci ullam assumenda aspernatur nesciunt nostrum impedit consectetur, aut amet deleniti quos exercitationem dolores similique! Accusamus totam ducimus corporis, sunt eos impedit! <spam>Algum projeto aqui. <a href="#">Projeto-1</a></spam>
-                </p>
-            </div>
-        </section>
+            <footer id="rodape">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.fiap.com.br" target="_self">FIAP</a></li>
+                        <li><a href="https://github.com" target="_blank">GITHUB</a></li>
+                        <li><a href="https://www.google.com.br" target="_blank">GOOGLE</a></li>
+                    </ul>
+                </nav>
 
-        <footer id="rodape">
-            <nav>
-                <ul>
-                    <li><a href="https://www.fiap.com.br" target="_self">FIAP</a></li>
-                    <li><a href="https://github.com" target="_blank">GITHUB</a></li>
-                    <li><a href="https://www.google.com.br" target="_blank">GOOGLE</a></li>
-                </ul>
-            </nav>
-
-            <p>Todos os direitos reservados &copy; 2024.</p>
-        </footer>
-    
-    </div>
-</body>
+                <p>Todos os direitos reservados &copy; 2024.</p>
+            </footer>
+        
+        </div>
+        
+    </body>
 
 </html>
