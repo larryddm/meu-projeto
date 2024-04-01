@@ -8,3 +8,7 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
     color: #ff0000;
 }
+
+nav a {
+    font-weight: bold;
+}
