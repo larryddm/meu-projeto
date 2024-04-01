@@ -3,3 +3,8 @@
 #cabecalho {
     background-color: rgba(105, 105, 237, 0.995);
 }
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+}
