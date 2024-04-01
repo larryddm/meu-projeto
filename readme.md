@@ -1,14 +1,13 @@
 # Introdução ao HTML
 
-## Fro-End Desgin Engineering 
+## Front-End Desgin Engineering 
 
 ### Prof. Alexandre Carlos - alecarlosjesus
 
-## Turma - !TDSPL
+## Turma - 1TDSPL
 
 ### Aluno:
 ```
-- Nome:
-- Git:
-- Instituição de Ensino
-```
+- Nome: Larry Dias
+- Git: larryddm
+- Instituição de Ensino: FIAP```
