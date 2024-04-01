@@ -44,3 +44,7 @@ form button {
 p {
     color: #008000;
 }
+
+#rodape {
+    border-top: 2px solid #ff0000;
+}
