@@ -1,20 +1,5 @@
 /* Exercício 1 CSS3 */
 
-/* 1. Defina uma cor de fundo para o cabeçalho (<header>) da cor azul. */
-/* 2. Aplique uma fonte serifada para todos os títulos (<h1>, <h2>). */
-/* 3. Faça com que os links da barra de navegação (<nav>) fiquem em negrito. */
-/* 4. Defina uma margem interna de 20 pixels para todos os elementos da classe .container. */
-/* 5. Ajuste o espaçamento entre linhas para 1.5 para todo o conteúdo dentro da <section> com o id conteudo. */
-/* 6. Estilize o formulário de contato (<form>) de forma que tenha uma borda sólida de 1 pixel, cor cinza e padding interno de 10 pixels. */
-/* 7. Aplique uma cor de texto verde para todos os parágrafos (<p>). */
-/* 8. Faça os botões (<button>) dentro do formulário de contato terem uma cor de fundo azul e texto branco. */
-/* 9. Defina uma borda superior de 2 pixels sólida e vermelha para o rodapé (<footer>). */
-/* 10. Todos os headers das páginas devem estar estilizados igualmente, mudando apenas os títulos das páginas e a navegação do menu. */
-
-#cabecalho {
-    background-color: rgba(105, 105, 237, 0.995);
-}
-
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -23,26 +8,32 @@ nav a {
     font-weight: bold;
 }
 
+form {
+    border: 1px solid #808080;
+    padding: 10px;
+
+    button {
+        background-color: #007bff;
+        color: #ffffff;
+        width: 80px;
+        height: 30px;
+    }
+}
+
+p {
+    color: #008000;
+}
+
+#cabecalho {
+    background-color: rgba(105, 105, 237, 0.995);
+}
+
 #container {
     padding: 20px;
 }
 
 #conteudo {
     line-height: 1.5;
-}
-
-form {
-    border: 1px solid #808080;
-    padding: 10px;
-}
-
-form button {
-    background-color: #007bff;
-    color: #ffffff;
-}
-
-p {
-    color: #008000;
 }
 
 #rodape {
